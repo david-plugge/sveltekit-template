@@ -1,4 +1,4 @@
-import { privateEnv } from '$lib/env/private.server';
+import { privateEnv } from '$lib/env/env.private';
 import { Redis, type RedisKey } from 'ioredis';
 
 export class CustomRedis extends Redis {
